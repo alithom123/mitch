@@ -1,9 +1,6 @@
 console.log("in background.js for main extension.");
 // background.js
 
-
-
-
     chrome.runtime.onInstalled.addListener(function() {
 
       // Get number of jokes by reading in json and checking size. Probably store it in storage also. Not that much.
@@ -18,25 +15,7 @@ console.log("in background.js for main extension.");
           chrome.storage.local.set({'joke_index': 0, 'num_jokes': num_jokes, 'joke_list': json}, function(){
                 console.log('variables stored locally');
           });
-
-
-          // chrome.storage.local.set({'num_jokes': num_jokes}, function(){
-          //       console.log('joke_index is stored locally');
-          // });
-          //
-          // chrome.storage.local.set({'jokes_list': json}, function(){
-          //       console.log('joke_list is stored locally');
-          // });
       });
-
-      // chrome.storage.local.set({'num_jokes': 274}, function(){
-      //       console.log('joke_index is initialized to 0');
-      // });
-//       chrome.storage.sync.set({key: value}, function() {
-//   console.log('Value is set to ' + value);
-// });
-
-
     });
 
     chrome.tabs.onCreated.addListener(function(tab) {

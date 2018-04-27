@@ -1,1 +1,4 @@
-// Design better favicon.
+Design better icon for chrome extension.
+Design for Chrome Extension Web Store.
+Sign up as Google Developer.
+Fix favicon not showing up.

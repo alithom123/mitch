@@ -19,6 +19,7 @@ function setNextJoke() {
         var joke_fits = false;
         var joke;
 
+        // Remove jokes that are too long and look bad on page.
         while(!joke_fits) {
 
             joke = joke_list[joke_index].joke;

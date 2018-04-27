@@ -1,0 +1,50 @@
+@font-face { font-family: PermanentMarker-Regular; src: url('/fonts/PermanentMarker-Regular.ttf'); }
+
+h5 { font-family: PermanentMarker-Regular, sans-serif; }
+h4 { font-family: PermanentMarker-Regular, sans-serif; }
+h3 { font-family: PermanentMarker-Regular, sans-serif; }
+h2 { font-family: PermanentMarker-Regular, sans-serif; }
+h1 { font-family: PermanentMarker-Regular, sans-serif; }
+p { font-family: PermanentMarker-Regular, sans-serif; }
+
+#masthead {
+    display: none;
+}
+
+#details, #nav, #chrome_websiteIP {
+    display: none;
+}
+
+#joke {
+    text-align: left;
+    margin-bottom: 2.5rem;
+}
+
+#comedian {
+    text-align: right;
+    font-size: 2.2rem;
+}
+
+#button-p {
+    display: none;
+    /* text-align: right; */
+}
+
+#footer-button {
+    text-align: right;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+body {
+    background-image: url("/images/paper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #333;
+}

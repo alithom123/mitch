@@ -6,7 +6,6 @@ function setNextJoke() {
 
     console.log('in setNextJoke');
 
-
     var joke_index;
     var num_jokes;
     var joke_list;
@@ -22,7 +21,7 @@ function setNextJoke() {
 
         while(!joke_fits) {
 
-            joke = joke_list[joke_index].Joke;
+            joke = joke_list[joke_index].joke;
 
             if(joke.length < 250)
             {
@@ -34,7 +33,7 @@ function setNextJoke() {
             }
         }
 
-        var comedian = joke_list[joke_index].Comedian;
+        var comedian = joke_list[joke_index].comedian;
 
         console.log('Got joke = ' + joke);
         $("#joke").text(joke);
@@ -43,14 +42,13 @@ function setNextJoke() {
 
         joke_index = (joke_index + 1) % num_jokes;
 
-        console.log("Here are the local storage values.");
-        console.log(values);
+        // console.log("Here are the local storage values.");
+        // console.log(values);
 
         chrome.storage.local.set({'joke_index': joke_index}, function()
         {
             console.log('Updated joke_index to ' + joke_index);
         });
-
     });
     }
 

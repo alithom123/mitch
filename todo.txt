@@ -1,8 +1,1 @@
-// close tabs with exact same url :: DOESN'T MAKE SENSE ANYMORE
-// close tabs on click of extensin :: DONE
-// close facebook.com sites :: Need to test.
-// highlight the fboffsite page on choices. 
-// reset badges DONE
-// how come console page loads quicker when I click on it. :: DONE https://superuser.com/questions/779021/google-chrome-background-tabs-dont-load-build-until-selected
-// when ad is reviewed auto click the extension or wait til page is loaded and click
-// Find the google currency tab and select the correct currency based on the ad location, if possible
+// Design better favicon.

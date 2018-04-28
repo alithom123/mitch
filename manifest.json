@@ -13,7 +13,6 @@
     },
     "permissions": [
       "tabs",
-      "chrome://favicon/",
       "storage"
     ],
     "icons": {

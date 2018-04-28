@@ -40,6 +40,7 @@ function setNextJoke() {
         $("#joke").text(joke);
         $("#comedian").text("- " + comedian);
         $("#masthead").text(comedian);
+        $("#title").text(joke);
 
         joke_index = (joke_index + 1) % num_jokes;
 

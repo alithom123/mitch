@@ -3,7 +3,7 @@
     "name": "Mitch",
     "short_name": "Mitch",
     "description": "Mitch. An extension that makes you snort-laugh with a Mitch Hedberg joke in every new tab.",
-    "version": "0.0.0.4",
+    "version": "0.0.0.5",
     "chrome_url_overrides" : {
         "newtab": "mitch.html"
     },
